@@ -18,7 +18,38 @@
 </head>
 
 <body>
-
+<!-- nav bar starts -->
+<div class="sticky-top">
+  <nav class="navbar navbar-expand-lg " style=" background-color: rgb(211, 209, 209) !important;">
+    <div class="container sticky-top"> <img src="img/dp.png" alt="IMG" style="max-width: 200px; height: 60px;">
+      <a class="navbar-brand" href="#">Dileep Patil K R</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link active" href="#edjucation&experience">Educaton & Experience Details </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#skills"> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active "href="#contact" >Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+   <!-- nav bar ends -->
   <div class="portfolio">
     <header class="header  text-center py-5">
       <div class="container">
@@ -44,7 +75,8 @@
       </div>
     </header>
 
-    <section class="about">
+    <!-- About me section starts -->
+    <section id="about">
       <h2>About Me</h2>
       <p>
         I am a recent graduate with a Master’s in Computer Applications from
@@ -78,7 +110,9 @@
         Hindi, allowing me to communicate effectively in diverse environments.
       </p>
     </section>
+ <!-- About me section ends -->
 
+    <section id="edjucation&experience">
     <!-- Education TimeLine starts -->
     <h2>Educaton Details &amp; Experience:</h2>
     <div class="container">
@@ -214,8 +248,64 @@
       </div>
     </div>
     <!-- Education Time Line ends -->
+  </section>
+<!-- skills section starts -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="row">
 
-    <section class="projects">
+      <!-- Programming Languages Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Programming Languages</h5>
+            <ul class="list-unstyled">
+              <li>Java</li>
+              <li>C++</li>
+              <li>C#</li>
+              <li>JavaScript</li>
+              <li>HTML, CSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Frameworks & Technologies Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Frameworks & Technologies</h5>
+            <ul class="list-unstyled">
+              <li>REST API</li>
+              <li>Angular</li>
+              <li>.NET, ASP.NET</li>
+              <li>SQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Methodologies Card -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Methodologies</h5>
+            <ul class="list-unstyled">
+              <li>Onion Architecture</li>
+              <li>Agile Methodology</li>
+              <li>Unit Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+    
+  </section>
+<!-- skills section ends -->
+
+    <section id="projects">
       <h2>My Projects</h2>
       <ul>
         <!-- project 1 -->
@@ -304,7 +394,7 @@
               layout that is user-friendly and responsive.
             </li>
           </ul>
-
+          <br>
           <p><b>Key Features:</b></p>
           <ul>
             <li class="Title_li">
@@ -328,8 +418,10 @@
               Responsive Design: The application is designed to be responsive,
               allowing users to access it seamlessly on various devices, including
               desktops and mobile phones.
+
             </li>
           </ul>
+          <br>
           <p><b>Impact:</b></p>
           <p>
             This project significantly enhanced my technical skills in web
@@ -365,7 +457,7 @@
               manage data, and facilitate interactions with the database.
             </li>
           </ul>
-
+          <br>
           <p><b>Key Features:</b></p>
           <ul>
             <li>
@@ -394,6 +486,7 @@
               troubleshooting as needed.
             </li>
           </ul>
+          <br>
           <p><b>Impact:</b></p>
           <p>
             Working on the AL-Rova project significantly enhanced my technical
@@ -428,7 +521,7 @@
               settings.
             </li>
           </ul>
-
+            <br>
           <p><b>Key Features:</b></p>
           <ul>
             <li>
@@ -440,6 +533,7 @@
               existing application, supporting multiple platforms.
             </li>
           </ul>
+          <br>
           <p><b>Impact:</b></p>
           <p>
             This project enhanced my skills in working with Firebase and
@@ -451,8 +545,8 @@
         </li>
       </ul>
     </section>
-
-    <section class="contact">
+   
+    <section id="contact">
       <h2>Contact Me</h2>
 
       <p>Email: dileeppatilkr1222&#64;gmail.com</p>

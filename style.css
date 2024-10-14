@@ -1,8 +1,38 @@
 body {
-    background-color: rgb(222, 222, 222) !important;
-   
-
+    background-color: rgb(248, 247, 247) !important;
 }
+
+.card {
+    height: 300px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+    background-color: rgb(253, 253, 253)
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card-title {
+    font-weight: bold; 
+    margin-bottom: 1rem;
+  }
+  
+  .list-unstyled {
+    padding-left: 0; 
+  }
+  
+  .list-unstyled li {
+    padding: 0.5rem 0; 
+    border-bottom: 1px solid #f1f1f1; 
+  }
+  
+  .list-unstyled li:last-child {
+    border-bottom: none; 
+  }
+
 .portfolio{
     font-family: Arial, sans-serif;
     max-width: 900px;
@@ -43,7 +73,7 @@ a{
     color: #007BFF;
   }
   .header , input ,textarea{
-    background-color:rgb(233, 233, 233) !important ;
+    background-color:rgb(255, 255, 255) !important ;
   }
   
 

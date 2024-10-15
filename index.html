@@ -606,14 +606,15 @@
 
       var name = document.getElementById('username').value;
       var email = document.getElementById('email').value;
+      var compnayname = document.getElementById('company_name').value;
       var message = document.getElementById('message').value;
-      var compnayname = decument.getElementById('company_name').value;
+     
       
       emailjs.send("service_ugwmlfd", "template_th1vf2c", {
         "from_name": name,
         "email_id": email,
         "message": message,
-        "Company_name": compnayname
+       "company_name": compnayname
       }).then(function (response) {
         console.log("Email sent successfully:", response);
         alert("Your message has been sent successfully!");

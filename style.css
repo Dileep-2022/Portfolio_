@@ -1,6 +1,10 @@
 body {
     background-color: rgb(248, 247, 247) !important;
 }
+p, li {
+    text-align: justify;
+  text-justify: inter-word;
+}
 
 .card {
     height: 300px;

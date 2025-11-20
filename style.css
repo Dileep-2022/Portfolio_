@@ -36,6 +36,7 @@ p, li {
   .list-unstyled li:last-child {
     border-bottom: none; 
   }
+  
 
 .portfolio{
     font-family: Arial, sans-serif;
@@ -43,6 +44,7 @@ p, li {
     margin: auto;
     padding: 20px;
 }
+
 a{
     text-decoration: none;
 }

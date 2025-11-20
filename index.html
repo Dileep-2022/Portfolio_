@@ -1,656 +1,841 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Dileep Patil K R | Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <title>Dileep Patil K R | Portfolio</title>
-</head>
+  <body>
+    <!-- nav bar starts -->
+    <div class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: rgb(211, 209, 209) !important"
+      >
+        <div class="container sticky-top">
+          <img
+            src="img/dp.png"
+            alt="IMG"
+            style="max-width: 200px; height: 60px"
+          />
+          <a class="navbar-brand" href="#">Dileep Patil K R</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About Me</a
+                >
+              </li>
 
-<body>
-<!-- nav bar starts -->
-<div class="sticky-top">
-  <nav class="navbar navbar-expand-lg " style=" background-color: rgb(211, 209, 209) !important;">
-    <div class="container sticky-top"> <img src="img/dp.png" alt="IMG" style="max-width: 200px; height: 60px;">
-      <a class="navbar-brand" href="#">Dileep Patil K R</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#edjucation&experience"
+                  >Educaton & Experience Details
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#skills"> Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- nav bar ends -->
+    <div class="portfolio">
+      <header class="header text-center py-4 rounded-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-md-left">
+              <img
+                src="img/IMG_20240814_135040.png"
+                alt="Profile Photo"
+                class="rounded-circle mb-4"
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-md-8 text-md-left">
+              <h1>Welcome to My Portfolio</h1>
+              <h6 class="mb-3">Hi, I'm Dileep Patil K R. I'm a Software Engineer.</h6>
+              <a 
+                href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/"
+                target="_blank"
+              >
+                <i class="bi bi-linkedin btn btn-primary btn-sm mx-3"></i>
+              </a>
+              <a href="https://github.com/Dileep-2022" target="_blank">
+                <i class="bi bi-github btn btn-primary btn-sm"></i>
+              </a>
+              <a
+                href="img/Dileep_PatilKR.pdf"
+                download
+                class="btn btn-secondary btn-sm ms-5"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- About me section starts -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am currently working as a Full Stack Software Engineer at Acelucid
+          Technologies Private Limited in Tumkuru, with about 1 year of
+          professional experience. In this role, I collaborate with
+          cross-functional teams to develop and implement full-stack
+          applications, contributing to both frontend and backend development
+          using HTML, CSS, JavaScript, Angular, and ASP.NET. This experience has
+          enhanced my skills in web development, API integration, database
+          management, and user interface design.
+        </p>
+        <p>
+          I am proficient in C# and Angular and have practical experience using
+          PostgreSQL and MongoDB. I am actively expanding my knowledge through
+          ongoing learning in advanced Angular, React, and microservices
+          architecture via online resources and tutorials.
+        </p>
+        <p>
+          Along with technical expertise, I have developed strong soft skills
+          such as adaptability, teamwork, and problem-solving through various
+          group projects and extracurricular activities. I participated in
+          events at RV College and Nitte Meenakshi College and coordinated a
+          quiz event at my college (SIT), which further enhanced my
+          collaboration and leadership abilities.
+        </p>
+        <p>
+          I completed my Master’s in Computer Applications from Siddaganga
+          Institute of Technology with a CGPA of 8.79 and hold a Bachelor's
+          degree in Computer Applications from Seshadripuram College, Tumkur,
+          with a CGPA of 8.4.
+        </p>
+        <p>
+          In my free time, I enjoy listening to music and playing games,
+          activities that help me maintain a balanced lifestyle. I am fluent in
+          Kannada, English, and Hindi, enabling effective communication in
+          diverse settings.
+        </p>
+      </section>
+
+      <!-- About me section ends -->
+
+      <section id="edjucation&experience">
+        <!-- Education TimeLine starts -->
+        <h2>Educaton Details &amp; Experience:</h2>
+        <div class="container">
+          <div class="main-timeline">
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="month">On-Going</span>
+                    <span class="year">2025</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">Software Engineer</h5>
+                <p class="description">
+                  Company: Acelucid Technologies Private Limited<br />
+                  Duration: Feb 2024 - present<br />
+                  I work as a Full Stack Developer, handling both frontend and
+                  backend development. I build responsive user interfaces using
+                  Angular, HTML, CSS, and JavaScript, while also developing and
+                  maintaining backend APIs and services using ASP.NET and C#. I
+                  collaborate with cross-functional teams to deliver seamless
+                  and scalable applications.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="month">9 Months</span>
+                    <span class="year">2024</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">Full Stack Software Engineer - Intern</h5>
+                <p class="description">
+                  Company: Acelucid Technologies Private Limited <br />
+                  Duration: May 2024 - Jan 2025<br />
+                  Location: Tumkuru <br />
+
+                  In my role at Acelucid Technologies, I have collaborated with
+                  cross-functional teams to develop and implement full-stack
+                  applications. My contributions include assisting in the design
+                  and development of user-friendly interfaces using HTML, CSS,
+                  JavaScript, and Angular, ensuring a seamless user experience
+                  across the applications.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="month">2 Years</span>
+                    <span class="year">2022</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">Master of Computer Applications</h5>
+                <p class="description">
+                  College : Siddaganga Institute of Technology <br />
+                  Year of Passing: 2024 <br />
+                  CGPA: 8.79 <br />
+
+                  I graduated with a Master's in Computer Applications from
+                  Siddaganga Institute of Technology, where I have maintained a
+                  CGPA of 8.79. This academic achievement reflects my dedication
+                  to mastering software development and related technologies.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="month">3 Years</span>
+                    <span class="year">2019</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">Bachelor of Computer Applications</h5>
+                <p class="description">
+                  Seshadripuram College, Tumkur <br />
+                  Year of Passing: 2022 <br />
+                  CGPA: 8.4 <br />
+                  I graduated with a Bachelor of Computer Applications from
+                  Seshadripuram College, Tumkur, achieving a CGPA of 8.4. This
+                  program provided me with a solid foundation in computer
+                  science and practical skills in software development.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="month">2 Years</span>
+                    <span class="year">2017</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">Pre-University Course (PUC)</h5>
+                <p class="description">
+                  Mahesh PU College, Tumkur <br />
+                  Year of Passing: 2019 <br />
+                  Percentage: 70.33% <br />
+                  I completed my Pre-University Course at Mahesh PU College,
+                  Tumkur, graduating in 2019 with a percentage of 70.33%.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+            <!-- start experience section-->
+            <div class="timeline">
+              <div class="icon"></div>
+              <div class="date-content">
+                <div class="date-outer">
+                  <span class="date">
+                    <span class="year">2016</span>
+                  </span>
+                </div>
+              </div>
+              <div class="timeline-content">
+                <h5 class="title">
+                  Secondary School Leaving Certificate (SSLC)
+                </h5>
+                <p class="description">
+                  Kids International School, Tumkur <br />
+                  Year of Passing: 2017 <br />
+                  Percentage: 86.72% <br />
+                  I completed my Secondary School Leaving Certificate (SSLC) at
+                  Kids International School, Tumkur, in 2017, achieving a
+                  percentage of 86.72%.
+                </p>
+              </div>
+            </div>
+            <!-- end experience section-->
+          </div>
+        </div>
+        <!-- Education Time Line ends -->
+      </section>
+      <!-- skills section starts -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="row">
+          <!-- Programming Languages Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Programming Languages</h5>
+                <ul class="list-unstyled">
+                  <li>Java</li>
+                  <li>C++</li>
+                  <li>C#</li>
+                  <li>JavaScript</li>
+                  <li>HTML, CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks & Technologies Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  Frameworks & Technologies
+                </h5>
+                <ul class="list-unstyled">
+                  <li>REST API</li>
+                  <li>Angular</li>
+                  <li>.NET, ASP.NET</li>
+                  <li>SQL</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Methodologies Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Methodologies</h5>
+                <ul class="list-unstyled">
+                  <li>Onion Architecture</li>
+                  <li>Agile Methodology</li>
+                  <li>Unit Testing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills section ends -->
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+          <!-- project 1 -->
+          <li class="Title_li">
+            <h3>Enterprise Leave Management System (Frontend Developer)</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              Developed a comprehensive leave management system with role-based
+              dashboards using Angular and TypeScript. The frontend focused on
+              delivering a seamless user experience with responsive design and
+              dynamic data handling.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                Angular: Framework for building dynamic, component-based UI.
+              </li>
+              <li>TypeScript: Ensuring type safety and maintainability.</li>
+              <li>Bootstrap: Responsive layout and styling.</li>
+              <li>RESTful APIs: Integration with backend services.</li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li>
+                Implemented role-based dashboards for employees, managers, and
+                administrators.
+              </li>
+              <li>
+                Developed leave application forms, approval workflows, and
+                calendar integration.
+              </li>
+              <li>
+                Built efficient data tables with sorting, filtering, and
+                pagination for handling large employee data.
+              </li>
+              <li>
+                Integrated automated email notifications for leave status
+                updates.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              This project enhanced my frontend development skills, particularly
+              in building responsive and interactive user interfaces while
+              ensuring smooth collaboration with backend services.
+            </p>
           </li>
-         
-          <li class="nav-item">
-            <a class="nav-link active" href="#edjucation&experience">Educaton & Experience Details </a>
+          <hr />
+          <!-- project 2 -->
+          <li class="Title_li">
+            <h3>Highland (Backend Developer)</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              Highland is an enterprise-level backend system where I was
+              responsible for designing and developing RESTful APIs using
+              ASP.NET and C#. The project focused on efficient data handling
+              with features such as pagination, sorting, filtering, and secure
+              data retrieval.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                .NET Framework / ASP.NET: Backend API development and service
+                management.
+              </li>
+              <li>C#: Core language for server-side logic implementation.</li>
+              <li>
+                LINQ: Efficient database querying, filtering, and sorting.
+              </li>
+              <li>SQL Server: Database design and optimization.</li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li>
+                Designed scalable and maintainable database schema supporting
+                core application functionality.
+              </li>
+              <li>
+                Developed RESTful APIs supporting dynamic queries with
+                pagination, sorting, and filtering to handle large datasets.
+              </li>
+              <li>Implemented security and role-based data access control.</li>
+              <li>
+                Collaborated with frontend developers for seamless integration
+                and API consumption.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              This project strengthened my backend development skills and
+              deepened my understanding of scalable API design, resulting in a
+              robust backend service capable of supporting enterprise operations
+              efficiently.
+            </p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#skills"> Skills</a>
+          <hr />
+          <!-- project 3 -->
+          <li class="Title_li">
+            <h3>Innovative Electrical Solution Website</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              The Innovative Electrical Solution Website serves as a
+              comprehensive platform for a company specializing in the
+              manufacturing of control panels and agricultural starters. The
+              website aims to provide detailed information about the company's
+              products, services, and projects, catering to industrial clients
+              and agricultural sectors.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                HTML: Used to structure the website's content, ensuring clear
+                and semantic markup for better accessibility and SEO.
+              </li>
+              <li>
+                CSS: Employed for styling the website, creating a visually
+                appealing and responsive design that enhances the user
+                experience.
+              </li>
+              <li>
+                ASP.NET: Utilized as the backend framework to manage server-side
+                logic, facilitate database interactions, and deliver a seamless
+                user experience.
+              </li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li>
+                Product Descriptions: Comprehensive information about various
+                control panels and agricultural starters, including
+                specifications, features, and benefits.
+              </li>
+              <li>
+                Project Showcase: Highlighting past projects to demonstrate the
+                company’s expertise and capabilities in delivering industrial
+                solutions.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              This project significantly enhanced my technical skills in web
+              development, particularly in using HTML, CSS, and ASP.NET. I
+              gained valuable experience in creating user-friendly interfaces
+              and effectively structuring content to meet client needs.
+              Additionally, working on this project improved my understanding of
+              backend development and database interactions, allowing me to
+              create a seamless user experience. Overall, this project deepened
+              my knowledge of how to present complex information clearly and
+              effectively, ultimately contributing to the company's online
+              presence and client engagement.
+            </p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#projects">Projects</a>
+          <hr />
+          <!-- project 4 -->
+
+          <li class="Title_li">
+            <h3>To-Do List Application</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              The To-Do List application is a robust tool designed to help users
+              manage their tasks efficiently. Built using Angular for the
+              frontend and ASP.NET for the backend, this application allows
+              users to add, edit, and delete tasks, providing an intuitive
+              interface that enhances productivity and organization.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                Angular: The primary framework for building the frontend,
+                enabling modular development and efficient data binding.
+              </li>
+              <li>
+                ASP.NET: Used as the backend framework to handle API requests,
+                manage data, and facilitate interactions with the database.
+              </li>
+              <li>
+                HTML: Employed for structuring the application’s user interface,
+                ensuring clear and accessible content.
+              </li>
+              <li>
+                CSS: Used for styling the application, creating a visually
+                appealing layout that is user-friendly and responsive.
+              </li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li class="Title_li">
+                Task Management: Users can easily add new tasks, mark them as
+                completed, or delete them, all through a streamlined interface.
+              </li>
+              <li>
+                API Integration: Utilizes ASP.NET to create RESTful APIs for
+                task management, allowing for seamless communication between the
+                frontend and backend.
+              </li>
+              <li>
+                JWT Implementation: JSON Web Tokens (JWT) are used for secure
+                user authentication, ensuring that users can safely access their
+                tasks.
+              </li>
+              <li>
+                Persistent Storage: Cookies are used to store the token and user
+                ID, maintaining session state across browser sessions.
+              </li>
+              <li>
+                Responsive Design: The application is designed to be responsive,
+                allowing users to access it seamlessly on various devices,
+                including desktops and mobile phones.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              This project significantly enhanced my technical skills in web
+              development, particularly in using Angular and ASP.NET together. I
+              gained valuable experience in creating interactive user
+              interfaces, managing API requests, and implementing secure
+              authentication methods with JWT. Working on this To-Do List
+              application deepened my understanding of full-stack development
+              and improved my ability to build user-centric applications.
+            </p>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active "href="#contact" >Contact</a>
+          <hr />
+          <!-- project 5 -->
+          <li class="Title_li">
+            <h3>AL-Rova Project</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              The AL-Rova project is an e-commerce application designed
+              specifically for farmers, providing a platform for purchasing
+              fertilizers, seeds, and other agricultural supplies. As a member
+              of the backend team, I contributed to the development and
+              implementation of key functionalities that support the overall
+              architecture of the application, ensuring a seamless shopping
+              experience for users.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                C#: Utilized for developing robust server-side logic, ensuring
+                high performance and reliability.
+              </li>
+              <li>
+                ASP.NET: Used as the backend framework to handle API requests,
+                manage data, and facilitate interactions with the database.
+              </li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li>
+                API Development: Contributed to developing RESTful APIs to
+                handle product listings, user accounts, and order processing,
+                ensuring efficient data retrieval and manipulation.
+              </li>
+              <li>
+                Bug Resolution: Actively identified and resolved bugs that were
+                raised in previous versions, enhancing the application's
+                stability and performance.
+              </li>
+              <li>
+                Database Management: Worked with the database to implement data
+                storage solutions for products, orders, and user information,
+                optimizing query performance and ensuring data integrity.
+              </li>
+              <li>
+                Authentication and Security: Implemented secure authentication
+                mechanisms to protect user data and ensure that only authorized
+                users could access sensitive information.
+              </li>
+              <li>
+                Collaboration: Collaborated closely with the frontend team to
+                ensure smooth integration of backend services, providing support
+                and troubleshooting as needed.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              Working on the AL-Rova project significantly enhanced my technical
+              skills in backend development with C# and ASP.NET. I contributed
+              to developing APIs and solving bugs that were raised previously,
+              gaining valuable experience in API development, bug fixing,
+              database management, and teamwork.
+            </p>
+          </li>
+          <hr />
+          <!-- project 6 -->
+          <li class="Title_li">
+            <h3>Push Notification Implementation using Firebase</h3>
+            <p><b>Project Overview:</b></p>
+            <p>
+              This project focused on implementing push notifications using
+              Firebase Cloud Messaging (FCM) to enhance user engagement by
+              enabling real-time alerts and updates.
+            </p>
+            <p><b>Tools and Technologies Used:</b></p>
+            <ul>
+              <li>
+                Firebase Cloud Messaging (FCM): Utilized to send and manage push
+                notifications efficiently.
+              </li>
+              <li>
+                JavaScript/Angular: Used to integrate FCM into the application,
+                facilitating communication for sending notifications.
+              </li>
+              <li>
+                HTML/CSS: Designed the user interface for managing notification
+                settings.
+              </li>
+            </ul>
+            <br />
+            <p><b>Key Features:</b></p>
+            <ul>
+              <li>
+                Real-Time Notifications: Developed a system to send timely
+                notifications to users for important updates.
+              </li>
+              <li>
+                Easy Integration: Ensured smooth integration of FCM with the
+                existing application, supporting multiple platforms.
+              </li>
+            </ul>
+            <br />
+            <p><b>Impact:</b></p>
+            <p>
+              This project enhanced my skills in working with Firebase and
+              understanding the mechanisms behind push notifications. I gained
+              practical experience in creating customizable notification
+              content, integrating third-party services, and managing user
+              interactions, all of which are crucial for improving user
+              engagement in applications.
+            </p>
           </li>
         </ul>
-      </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Detail</h2>
+
+        <p>Email: dileeppatilkr1222&#64;gmail.com</p>
+        <a
+          href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/"
+          target="_blank"
+        >
+          <i class="bi bi-linkedin btn btn-primary btn-sm"></i>
+        </a>
+        <a href="https://github.com/Dileep-2022" target="_blank">
+          <i class="bi bi-github btn btn-primary btn-sm"></i>
+        </a>
+
+        <!-- messaging -->
+        <div>
+          <h4>Share your insights or inquiries!</h4>
+          <form id="contact-form">
+            <div class="form-group mt-3">
+              <label for="username">Name<sup style="color: red">*</sup>:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                name="username"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="email">Email <sup style="color: red">*</sup>:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="industry-name">Company Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="company_name"
+                name="compan_name"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="message"
+                >Message <sup style="color: red">*</sup>:</label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Send</button>
+          </form>
+        </div>
+      </section>
     </div>
-  </nav>
-  </div>
-   <!-- nav bar ends -->
-  <div class="portfolio">
-    <header class="header  text-center py-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-4 text-md-left">
-            <img src="img/IMG_20240814_135040.jpg" alt="Profile Photo" class="rounded-circle mb-4" width="200"
-              height="200" loading="lazy" />
-          </div>
-          <div class="col-md-8 text-md-left">
-            <h1>Welcome to My Portfolio</h1>
-            <h6>Hi, I'm Dileep Patil K R. I'm a Software Engineer.</h6>
-            <a href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/" target="_blank"> <i
-                class="bi bi-linkedin btn btn-primary btn-sm"></i>
-            </a>
-            <a href="https://github.com/Dileep-2022" target="_blank"> <i
-                class="bi bi-github btn btn-primary btn-sm"></i>
-            </a>
-            <a href="img/Dileep_patil_KR.pdf" download class="btn btn-secondary btn-sm ms-5">
-              Download Resume
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
-    <!-- About me section starts -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I am a recent graduate with a Master’s in Computer Applications from
-        Siddaganga Institute of Technology, where I achieved a CGPA of 8.79. I
-        also hold a Bachelor's degree in Computer Applications from Seshadripuram
-        College, Tumkur, with a CGPA of 8.4.
-      </p>
-      <p>
-        I am currently working as a Full Stack Software Engineer at Acelucid
-        Technologies Private Limited in Tumkuru. In this role, I collaborate with
-        cross-functional teams to develop and implement full-stack applications,
-        assisting in the design and development of user-friendly interfaces using
-        HTML, CSS, JavaScript, and Angular.
-      </p>
-      <p>
-        I am proficient in C# and Angular and have experience working with
-        PostgreSQL and MongoDB. My academic and professional experiences have
-        fueled my passion for software development and technology.
-      </p>
-      <p>
-        In addition to my technical skills, I bring strong soft skills such as
-        adaptability and team management, which I honed through various group
-        projects and extracurricular activities. I participated in events at RV
-        College and Nitte Meenakshi College, and I also coordinated the quiz event
-        organized at my college (SIT), enhancing my collaboration and
-        problem-solving abilities.
-      </p>
-      <p>
-        In my free time, I enjoy listening to music and playing games, which help
-        me maintain a balanced lifestyle. I am fluent in Kannada, English, and
-        Hindi, allowing me to communicate effectively in diverse environments.
-      </p>
-    </section>
- <!-- About me section ends -->
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-    <section id="edjucation&experience">
-    <!-- Education TimeLine starts -->
-    <h2>Educaton Details &amp; Experience:</h2>
-    <div class="container">
-      <div class="main-timeline">
-         <!-- start experience section-->
-         <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="month">On-Going</span>
-                <span class="year">2025</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Software Engineer</h5>
-            <p class="description">
-              Company: Acelucid Technologies Private Limited<br />
-          
-             
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
-        <!-- start experience section-->
-        <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="month">9 Months</span>
-                <span class="year">2024</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Full Stack Software Engineer - Intern</h5>
-            <p class="description">
-              Company: Acelucid Technologies Private Limited <br />
-              Duration: May 2024 - Jan 2025<br />
-              Location: Tumkuru <br />
+          emailjs.init({
+            publicKey: "peVrOIyuf00zS4zA3",
 
-              In my role at Acelucid Technologies, I have collaborated with
-              cross-functional teams to develop and implement full-stack
-              applications. My contributions include assisting in the design and
-              development of user-friendly interfaces using HTML, CSS, JavaScript,
-              and Angular, ensuring a seamless user experience across the
-              applications.
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
+            blockHeadless: true,
 
-        <!-- start experience section-->
-        <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="month">2 Years</span>
-                <span class="year">2022</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Master of Computer Applications</h5>
-            <p class="description">
-              College : Siddaganga Institute of Technology <br />
-              Year of Passing: 2024 <br />
-              CGPA: 8.79 <br />
+            limitRate: {
+              id: "app",
 
-              I graduated with a Master's in Computer Applications from Siddaganga
-              Institute of Technology, where I have maintained a CGPA of 8.79.
-              This academic achievement reflects my dedication to mastering
-              software development and related technologies.
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
+              throttle: 10000,
+            },
+          });
 
-        <!-- start experience section-->
-        <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="month">3 Years</span>
-                <span class="year">2019</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Bachelor of Computer Applications</h5>
-            <p class="description">
-              Seshadripuram College, Tumkur <br />
-              Year of Passing: 2022 <br />
-              CGPA: 8.4 <br />
-              I graduated with a Bachelor of Computer Applications from
-              Seshadripuram College, Tumkur, achieving a CGPA of 8.4. This program
-              provided me with a solid foundation in computer science and
-              practical skills in software development.
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
+          var name = document.getElementById("username").value;
+          var email = document.getElementById("email").value;
+          var compnayname = document.getElementById("company_name").value;
+          var message = document.getElementById("message").value;
 
-        <!-- start experience section-->
-        <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="month">2 Years</span>
-                <span class="year">2017</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Pre-University Course (PUC)</h5>
-            <p class="description">
-              Mahesh PU College, Tumkur <br />
-              Year of Passing: 2019 <br />
-              Percentage: 70.33% <br />
-              I completed my Pre-University Course at Mahesh PU College, Tumkur,
-              graduating in 2019 with a percentage of 70.33%.
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
-        <!-- start experience section-->
-        <div class="timeline">
-          <div class="icon"></div>
-          <div class="date-content">
-            <div class="date-outer">
-              <span class="date">
-                <span class="year">2016</span>
-              </span>
-            </div>
-          </div>
-          <div class="timeline-content">
-            <h5 class="title">Secondary School Leaving Certificate (SSLC)</h5>
-            <p class="description">
-              Kids International School, Tumkur <br />
-              Year of Passing: 2017 <br />
-              Percentage: 86.72% <br />
-              I completed my Secondary School Leaving Certificate (SSLC) at Kids
-              International School, Tumkur, in 2017, achieving a percentage of
-              86.72%.
-            </p>
-          </div>
-        </div>
-        <!-- end experience section-->
-      </div>
-    </div>
-    <!-- Education Time Line ends -->
-  </section>
-<!-- skills section starts -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="row">
-
-      <!-- Programming Languages Card -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-center">Programming Languages</h5>
-            <ul class="list-unstyled">
-              <li>Java</li>
-              <li>C++</li>
-              <li>C#</li>
-              <li>JavaScript</li>
-              <li>HTML, CSS</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Frameworks & Technologies Card -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-center">Frameworks & Technologies</h5>
-            <ul class="list-unstyled">
-              <li>REST API</li>
-              <li>Angular</li>
-              <li>.NET, ASP.NET</li>
-              <li>SQL</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Methodologies Card -->
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-center">Methodologies</h5>
-            <ul class="list-unstyled">
-              <li>Onion Architecture</li>
-              <li>Agile Methodology</li>
-              <li>Unit Testing</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  
-    </div>
-    
-  </section>
-<!-- skills section ends -->
-
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ul>
-        <!-- project 1 -->
-        <li class="Title_li">
-          <h3>Innovative Electrical Solution Website</h3>
-          <p><b>Project Overview:</b></p>
-          <p>
-            The Innovative Electrical Solution Website serves as a comprehensive
-            platform for a company specializing in the manufacturing of control
-            panels and agricultural starters. The website aims to provide detailed
-            information about the company's products, services, and projects,
-            catering to industrial clients and agricultural sectors.
-          </p>
-          <p><b>Tools and Technologies Used:</b></p>
-          <ul>
-            <li>
-              HTML: Used to structure the website's content, ensuring clear and
-              semantic markup for better accessibility and SEO.
-            </li>
-            <li>
-              CSS: Employed for styling the website, creating a visually appealing
-              and responsive design that enhances the user experience.
-            </li>
-            <li>
-              ASP.NET: Utilized as the backend framework to manage server-side
-              logic, facilitate database interactions, and deliver a seamless user
-              experience.
-            </li>
-          </ul>
-          <p><b>Key Features:</b></p>
-          <ul>
-            <li>
-              Product Descriptions: Comprehensive information about various
-              control panels and agricultural starters, including specifications,
-              features, and benefits.
-            </li>
-            <li>
-              Project Showcase: Highlighting past projects to demonstrate the
-              company’s expertise and capabilities in delivering industrial
-              solutions.
-            </li>
-          </ul>
-          <p><b>Impact:</b></p>
-          <p>
-            This project significantly enhanced my technical skills in web
-            development, particularly in using HTML, CSS, and ASP.NET. I gained
-            valuable experience in creating user-friendly interfaces and
-            effectively structuring content to meet client needs. Additionally,
-            working on this project improved my understanding of backend
-            development and database interactions, allowing me to create a
-            seamless user experience. Overall, this project deepened my knowledge
-            of how to present complex information clearly and effectively,
-            ultimately contributing to the company's online presence and client
-            engagement.
-          </p>
-        </li>
-        <hr />
-        <!-- project 2 -->
-
-        <li class="Title_li">
-          <h3>To-Do List Application</h3>
-          <p><b>Project Overview:</b></p>
-          <p>
-            The To-Do List application is a robust tool designed to help users
-            manage their tasks efficiently. Built using Angular for the frontend
-            and ASP.NET for the backend, this application allows users to add,
-            edit, and delete tasks, providing an intuitive interface that enhances
-            productivity and organization.
-          </p>
-          <p><b>Tools and Technologies Used:</b></p>
-          <ul>
-            <li>
-              Angular: The primary framework for building the frontend, enabling
-              modular development and efficient data binding.
-            </li>
-            <li>
-              ASP.NET: Used as the backend framework to handle API requests,
-              manage data, and facilitate interactions with the database.
-            </li>
-            <li>
-              HTML: Employed for structuring the application’s user interface,
-              ensuring clear and accessible content.
-            </li>
-            <li>
-              CSS: Used for styling the application, creating a visually appealing
-              layout that is user-friendly and responsive.
-            </li>
-          </ul>
-          <br>
-          <p><b>Key Features:</b></p>
-          <ul>
-            <li class="Title_li">
-              Task Management: Users can easily add new tasks, mark them as
-              completed, or delete them, all through a streamlined interface.
-            </li>
-            <li>
-              API Integration: Utilizes ASP.NET to create RESTful APIs for task
-              management, allowing for seamless communication between the frontend
-              and backend.
-            </li>
-            <li>
-              JWT Implementation: JSON Web Tokens (JWT) are used for secure user
-              authentication, ensuring that users can safely access their tasks.
-            </li>
-            <li>
-              Persistent Storage: Cookies are used to store the token and user ID,
-              maintaining session state across browser sessions.
-            </li>
-            <li>
-              Responsive Design: The application is designed to be responsive,
-              allowing users to access it seamlessly on various devices, including
-              desktops and mobile phones.
-
-            </li>
-          </ul>
-          <br>
-          <p><b>Impact:</b></p>
-          <p>
-            This project significantly enhanced my technical skills in web
-            development, particularly in using Angular and ASP.NET together. I
-            gained valuable experience in creating interactive user interfaces,
-            managing API requests, and implementing secure authentication methods
-            with JWT. Working on this To-Do List application deepened my
-            understanding of full-stack development and improved my ability to
-            build user-centric applications.
-          </p>
-        </li>
-        <hr />
-        <!-- project 3 -->
-        <li class="Title_li">
-          <h3>AL-Rova Project</h3>
-          <p><b>Project Overview:</b></p>
-          <p>
-            The AL-Rova project is an e-commerce application designed specifically
-            for farmers, providing a platform for purchasing fertilizers, seeds,
-            and other agricultural supplies. As a member of the backend team, I
-            contributed to the development and implementation of key
-            functionalities that support the overall architecture of the
-            application, ensuring a seamless shopping experience for users.
-          </p>
-          <p><b>Tools and Technologies Used:</b></p>
-          <ul>
-            <li>
-              C#: Utilized for developing robust server-side logic, ensuring high
-              performance and reliability.
-            </li>
-            <li>
-              ASP.NET: Used as the backend framework to handle API requests,
-              manage data, and facilitate interactions with the database.
-            </li>
-          </ul>
-          <br>
-          <p><b>Key Features:</b></p>
-          <ul>
-            <li>
-              API Development: Contributed to developing RESTful APIs to handle
-              product listings, user accounts, and order processing, ensuring
-              efficient data retrieval and manipulation.
-            </li>
-            <li>
-              Bug Resolution: Actively identified and resolved bugs that were
-              raised in previous versions, enhancing the application's stability
-              and performance.
-            </li>
-            <li>
-              Database Management: Worked with the database to implement data
-              storage solutions for products, orders, and user information,
-              optimizing query performance and ensuring data integrity.
-            </li>
-            <li>
-              Authentication and Security: Implemented secure authentication
-              mechanisms to protect user data and ensure that only authorized
-              users could access sensitive information.
-            </li>
-            <li>
-              Collaboration: Collaborated closely with the frontend team to ensure
-              smooth integration of backend services, providing support and
-              troubleshooting as needed.
-            </li>
-          </ul>
-          <br>
-          <p><b>Impact:</b></p>
-          <p>
-            Working on the AL-Rova project significantly enhanced my technical
-            skills in backend development with C# and ASP.NET. I contributed to
-            developing APIs and solving bugs that were raised previously, gaining
-            valuable experience in API development, bug fixing, database
-            management, and teamwork.
-          </p>
-        </li>
-        <hr />
-        <!-- project 4 -->
-        <li class="Title_li">
-          <h3>Push Notification Implementation using Firebase</h3>
-          <p><b>Project Overview:</b></p>
-          <p>
-            This project focused on implementing push notifications using Firebase
-            Cloud Messaging (FCM) to enhance user engagement by enabling real-time
-            alerts and updates.
-          </p>
-          <p><b>Tools and Technologies Used:</b></p>
-          <ul>
-            <li>
-              Firebase Cloud Messaging (FCM): Utilized to send and manage push
-              notifications efficiently.
-            </li>
-            <li>
-              JavaScript/Angular: Used to integrate FCM into the application,
-              facilitating communication for sending notifications.
-            </li>
-            <li>
-              HTML/CSS: Designed the user interface for managing notification
-              settings.
-            </li>
-          </ul>
-            <br>
-          <p><b>Key Features:</b></p>
-          <ul>
-            <li>
-              Real-Time Notifications: Developed a system to send timely
-              notifications to users for important updates.
-            </li>
-            <li>
-              Easy Integration: Ensured smooth integration of FCM with the
-              existing application, supporting multiple platforms.
-            </li>
-          </ul>
-          <br>
-          <p><b>Impact:</b></p>
-          <p>
-            This project enhanced my skills in working with Firebase and
-            understanding the mechanisms behind push notifications. I gained
-            practical experience in creating customizable notification content,
-            integrating third-party services, and managing user interactions, all
-            of which are crucial for improving user engagement in applications.
-          </p>
-        </li>
-      </ul>
-    </section>
-   
-    <section id="contact">
-      <h2>Contact Detail</h2>
-
-      <p>Email: dileeppatilkr1222&#64;gmail.com</p>
-      <a href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/" target="_blank">
-        <i class="bi bi-linkedin btn btn-primary btn-sm"></i>
-      </a>
-      <a href="https://github.com/Dileep-2022" target="_blank"> <i class="bi bi-github btn btn-primary btn-sm"></i>
-      </a>
-      
-      <!-- messaging -->
-      <div>
-        <h4>Share your insights or inquiries!</h4>
-        <form id="contact-form">
-          <div class="form-group mt-3">
-            <label for="username">Name<sup style="color: red;">*</sup>:</label>
-            <input type="text" class="form-control" id="username" name="username" required>
-          </div>
-          <div class="form-group mt-3">
-            <label for="email">Email <sup style="color: red;">*</sup>:</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-          </div>
-          <div class="form-group mt-3">
-            <label for="industry-name">Company Name:</label>
-            <input type="text" class="form-control" id="company_name" name="compan_name">
-          </div>
-          <div class="form-group mt-3">
-            <label for="message">Message <sup style="color: red;">*</sup>:</label>
-            <textarea class="form-control" id="message" name="message" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary mt-3">Send</button>
-        </form>
-
-      </div>
-    </section>
-  </div>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-
-  <script>
-   
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-      event.preventDefault();
-
-
-      emailjs.init({
-        publicKey: 'peVrOIyuf00zS4zA3',
-
-        blockHeadless: true,
-
-        limitRate: {
-
-          id: 'app',
-
-          throttle: 10000,
-        },
-      });
-
-      var name = document.getElementById('username').value;
-      var email = document.getElementById('email').value;
-      var compnayname = document.getElementById('company_name').value;
-      var message = document.getElementById('message').value;
-     
-      
-      emailjs.send("service_ugwmlfd", "template_th1vf2c", {
-        "from_name": name,
-        "email_id": email,
-        "message": message,
-       "company_name": compnayname
-      }).then(function (response) {
-        console.log("Email sent successfully:", response);
-        alert("Your message has been sent successfully!");
-        document.getElementById('contact-form').reset();
-      }, function (error) {
-        console.error("Email sending failed:", error);
-        alert("Oops! Something went wrong. Please try again later.");
-      });
-
-
-
-    });
-
-  </script>
-
-</body>
-
+          emailjs
+            .send("service_ugwmlfd", "template_th1vf2c", {
+              from_name: name,
+              email_id: email,
+              message: message,
+              company_name: compnayname,
+            })
+            .then(
+              function (response) {
+                console.log("Email sent successfully:", response);
+                alert("Your message has been sent successfully!");
+                document.getElementById("contact-form").reset();
+              },
+              function (error) {
+                console.error("Email sending failed:", error);
+                alert("Oops! Something went wrong. Please try again later.");
+              }
+            );
+        });
+    </script>
+  </body>
 </html>

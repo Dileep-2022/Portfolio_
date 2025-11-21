@@ -7,23 +7,32 @@ p, li {
 }
 
 .card {
-    height: 300px;
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-    transition: transform 0.2s, box-shadow 0.2s; 
-    background-color: rgb(253, 253, 253)
-  }
-  
-  .card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
-  }
-  
-  .card-title {
-    font-weight: bold; 
-    margin-bottom: 1rem;
-  }
-  
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 14px;
+    padding: 8px 16px; 
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-body ul li {
+    padding: 4px 0;
+    font-size: 0.95rem;
+}
+
   .list-unstyled {
     padding-left: 0; 
   }

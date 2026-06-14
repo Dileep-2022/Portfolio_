@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dileep Patil K R | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top bar (mobile) / Sidebar (desktop) -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <span class="logo">Dileep<span class="cursor">_</span></span>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <nav class="filetree" id="filetree">
+        <p class="filetree-label">portfolio/</p>
+        <ul>
+          <li><a href="#about" class="file-link"><span class="ext">.tsx</span>about</a></li>
+          <li><a href="#timeline" class="file-link"><span class="ext">.log</span>experience</a></li>
+          <li><a href="#skills" class="file-link"><span class="ext">.json</span>skills</a></li>
+          <li><a href="#projects" class="file-link"><span class="ext">/</span>projects</a></li>
+          <li><a href="#contact" class="file-link"><span class="ext">.ts</span>contact</a></li>
+        </ul>
+
+        <div class="sidebar-footer">
+          <a href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.76-1.75 1.76zm13.5 10.28h-3v-4.74c0-1.13-.02-2.58-1.57-2.58-1.57 0-1.81 1.23-1.81 2.5v4.82h-3v-9h2.88v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v4.74z"/></svg>
+          </a>
+          <a href="https://github.com/Dileep-2022" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.95.1-.74.39-1.25.71-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.06 11.06 0 015.79 0c2.21-1.49 3.18-1.18 3.18-1.18.62 1.58.23 2.75.11 3.04.74.81 1.18 1.84 1.18 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.07.78 2.16 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55C20.71 21.39 24 17.07 24 12 24 5.65 18.35.5 12 .5z"/></svg>
+          </a>
+          <a href="/img/Dileep_Patil_KR.pdf" download aria-label="Download resume" class="resume-pill">
+            resume.pdf<span class="dl-arrow">&darr;</span>
+          </a>
+        </div>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <!-- HERO -->
+      <header class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="terminal-line">
+            <span class="prompt">~/portfolio $</span>
+            <span class="typed" id="typedText"></span><span class="caret">|</span>
+          </p>
+
+          <h1 class="hero-title">
+            Dileep Patil&nbsp;K&nbsp;R
+          </h1>
+          <p class="hero-role">Full Stack Software Engineer — Angular &amp; .NET</p>
+          <p class="hero-desc">
+            Building responsive interfaces and reliable APIs at
+            <strong>Acelucid Technologies</strong>, with hands-on experience across
+            Angular, ASP.NET, PostgreSQL and MongoDB.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+
+          <!-- <div class="hero-photo-wrap">
+            <div class="hero-photo">
+              <img src="/img/IMG_20240814_135040.png" alt="Portrait of Dileep Patil K R" loading="lazy" />
+            </div>
+          </div> -->
+        </div>
+      </header>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <p class="section-eyebrow"><span class="ext-tag">.tsx</span> about</p>
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm currently working as a Full Stack Software Engineer at
+              <strong>Acelucid Technologies Private Limited</strong>, with about
+              two years of professional experience. I collaborate with
+              cross‑functional teams to build full‑stack applications —
+              contributing to both frontend and backend using HTML, CSS,
+              JavaScript, Angular and ASP.NET.
+            </p>
+            <p>
+              I'm proficient in C# and Angular, with practical experience in
+              PostgreSQL and MongoDB, and I'm continually expanding into
+              advanced Angular, React, and microservices architecture.
+            </p>
+            <p>
+              Outside of code, I've sharpened my collaboration and leadership
+              skills through events at RV College and Nitte Meenakshi College,
+              and by coordinating a quiz event at my own college (SIT). I enjoy
+              music and gaming in my downtime, and I'm fluent in Kannada,
+              English and Hindi.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-card-row">
+              <span class="label">Role</span>
+              <span class="value">Software Engineer</span>
+            </div>
+            <div class="about-card-row">
+              <span class="label">Company</span>
+              <span class="value">Acelucid Technologies</span>
+            </div>
+            <div class="about-card-row">
+              <span class="label">Stack</span>
+              <span class="value">Angular · C# · ASP.NET</span>
+            </div>
+            <div class="about-card-row">
+              <span class="label">Education</span>
+              <span class="value">MCA — SIT (CGPA 8.79)</span>
+            </div>
+            <div class="about-card-row">
+              <span class="label">Languages</span>
+              <span class="value">Kannada · English · Hindi</span>
+            </div>
+            <div class="about-card-row">
+              <span class="label">Location</span>
+              <span class="value">Tumkur, Karnataka, IN</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE / EDUCATION TIMELINE -->
+      <section id="timeline" class="section">
+        <p class="section-eyebrow"><span class="ext-tag">.log</span> experience</p>
+        <h2 class="section-title">Experience &amp; education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-year">2024 →</span>
+            </div>
+            <div class="timeline-card">
+              <h3>Software Engineer</h3>
+              <p class="timeline-meta">Acelucid Technologies Private Limited · May 2024 – Present</p>
+              <p>
+                Working as a Full Stack Developer across frontend and backend.
+                Building responsive, scalable UIs with Angular, HTML, CSS, SCSS
+                and TypeScript, and developing &amp; integrating backend APIs and
+                services using ASP.NET and C#, in close collaboration with
+                cross‑functional teams.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-year">2022–24</span>
+            </div>
+            <div class="timeline-card">
+              <h3>Master of Computer Applications</h3>
+              <p class="timeline-meta">Siddaganga Institute of Technology · CGPA 8.79</p>
+              <p>
+                Graduated with a Master's in Computer Applications, building a
+                strong foundation in software development and modern
+                application architecture.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-year">2019–22</span>
+            </div>
+            <div class="timeline-card">
+              <h3>Bachelor of Computer Applications</h3>
+              <p class="timeline-meta">Seshadripuram College, Tumkur · CGPA 8.4</p>
+              <p>
+                Built a solid foundation in computer science fundamentals and
+                practical software development skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-year">2017–19</span>
+            </div>
+            <div class="timeline-card">
+              <h3>Pre‑University Course (PUC)</h3>
+              <p class="timeline-meta">Mahesh PU College, Tumkur · 70.33%</p>
+              <p>Completed pre-university studies, graduating in 2019.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="timeline-year">2017</span>
+            </div>
+            <div class="timeline-card">
+              <h3>Secondary School Leaving Certificate (SSLC)</h3>
+              <p class="timeline-meta">Kids International School, Tumkur · 86.72%</p>
+              <p>Completed secondary schooling in 2017.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <p class="section-eyebrow"><span class="ext-tag">.json</span> skills</p>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming languages</h3>
+            <ul class="tag-list">
+              <li>C# (.NET)</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML &amp; CSS</li>
+              <li>Java</li>
+              <li>C++</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Frameworks &amp; tech</h3>
+            <ul class="tag-list">
+              <li>Angular</li>
+              <li>Bootstrap</li>
+              <li>.NET Core / ASP.NET</li>
+              <li>REST APIs</li>
+              <li>Microservices</li>
+              <li>Firebase Cloud Messaging</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Databases &amp; security</h3>
+            <ul class="tag-list">
+              <li>PostgreSQL</li>
+              <li>SQL Server</li>
+              <li>MongoDB</li>
+              <li>Query optimization</li>
+              <li>JWT authentication</li>
+              <li>OAuth</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Methodologies</h3>
+            <ul class="tag-list">
+              <li>Agile</li>
+              <li>Unit testing</li>
+              <li>TDD</li>
+              <li>Onion architecture</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul class="tag-list">
+              <li>Visual Studio</li>
+              <li>Postman</li>
+              <li>Git</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <p class="section-eyebrow"><span class="ext-tag">/</span> projects</p>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-list">
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Enterprise Leave Management System</h3>
+              <span class="project-role">Frontend Developer</span>
+            </div>
+            <p>
+              A comprehensive leave management system with role‑based
+              dashboards for employees, managers and administrators, built in
+              Angular and TypeScript with a focus on responsive design and
+              dynamic data handling.
+            </p>
+            <ul class="tag-list inline">
+              <li>Angular</li><li>TypeScript</li><li>Bootstrap</li><li>REST APIs</li>
+            </ul>
+            <p class="project-impact">
+              Leave application forms, approval workflows, calendar
+              integration, sortable/filterable data tables, and automated
+              email notifications for status updates.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Highland</h3>
+              <span class="project-role">Backend Developer</span>
+            </div>
+            <p>
+              An enterprise‑level backend system with RESTful APIs built using
+              ASP.NET and C#, focused on efficient data handling — pagination,
+              sorting, filtering, and secure data retrieval.
+            </p>
+            <ul class="tag-list inline">
+              <li>ASP.NET</li><li>C#</li><li>LINQ</li><li>SQL Server</li>
+            </ul>
+            <p class="project-impact">
+              Designed a scalable, maintainable database schema, implemented
+              role‑based access control, and worked closely with the frontend
+              team for seamless integration.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Innovative Electrical Solution Website</h3>
+              <span class="project-role">Full Stack</span>
+            </div>
+            <p>
+              A company website for a manufacturer of control panels and
+              agricultural starters, presenting products, services and past
+              projects to industrial and agricultural clients.
+            </p>
+            <ul class="tag-list inline">
+              <li>HTML</li><li>CSS</li><li>ASP.NET</li>
+            </ul>
+            <p class="project-impact">
+              Detailed product descriptions and a project showcase, with a
+              focus on clear, accessible content structure and backend
+              integration for a seamless experience.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>AL‑Rova</h3>
+              <span class="project-role">Backend Team</span>
+            </div>
+            <p>
+              An e‑commerce platform for farmers to purchase fertilizers,
+              seeds and agricultural supplies, with backend work spanning
+              APIs, data management and security.
+            </p>
+            <ul class="tag-list inline">
+              <li>C#</li><li>ASP.NET</li><li>REST APIs</li>
+            </ul>
+            <p class="project-impact">
+              Built RESTful APIs for product listings, accounts and order
+              processing, resolved stability bugs, and implemented secure
+              authentication mechanisms.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3>Push Notifications with Firebase</h3>
+              <span class="project-role">Integration</span>
+            </div>
+            <p>
+              Implemented push notifications using Firebase Cloud Messaging
+              (FCM) to deliver real‑time alerts and updates and improve user
+              engagement.
+            </p>
+            <ul class="tag-list inline">
+              <li>Firebase Cloud Messaging</li><li>Angular</li><li>HTML/CSS</li>
+            </ul>
+            <p class="project-impact">
+              Real‑time notification delivery, a settings interface for
+              managing preferences, and smooth integration across platforms.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-contact">
+        <p class="section-eyebrow"><span class="ext-tag">.ts</span> contact</p>
+        <h2 class="section-title">Get in touch</h2>
+        <p class="contact-intro">
+          Share your insights or inquiries — I usually reply within a day or
+          two.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <a class="contact-link" href="mailto:dileeppatilkr1222@gmail.com">
+              <span class="label">Email</span>
+              <span class="value">dileeppatilkr1222@gmail.com</span>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/dileep-patil-k-r-9bb6a0196/" target="_blank" rel="noopener">
+              <span class="label">LinkedIn</span>
+              <span class="value">/in/dileep-patil-k-r</span>
+            </a>
+            <a class="contact-link" href="https://github.com/Dileep-2022" target="_blank" rel="noopener">
+              <span class="label">GitHub</span>
+              <span class="value">@Dileep-2022</span>
+            </a>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="username">Name <sup>*</sup></label>
+              <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email <sup>*</sup></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="company_name">Company name</label>
+              <input type="text" id="company_name" name="company_name" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message <sup>*</sup></label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; <span id="year"></span> Dileep Patil K R — built with HTML &amp; CSS.</p>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
